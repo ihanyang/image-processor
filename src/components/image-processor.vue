@@ -13,7 +13,7 @@
 	import {compressImage} from "../utils/compress"
 
 	export default {
-		props: ["text", "stage", "uploadLink", "response"],
+		props: ["text", "stage", "uploadLink", "response", "webp"],
 		data() {
 			return {
 				message: "",
@@ -40,7 +40,7 @@
 
 				// 0 原图上传  1 压缩  2 压缩且转webp
 
-				let compressLevel = 1
+				let compressLevel = this.webp
 
 				if (navigator.userAgent.match(/UCBrowser/)) {
 					compressLevel = 0

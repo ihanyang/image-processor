@@ -9,7 +9,7 @@
 </template>
 
 <script>
-	import imageProcessor from "./image-processor.vue"
+	import imageProcessor from "./components/image-processor.vue"
 
 	export default {
 		data() {

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-	import {compressImage} from "./utils/compress"
+	import {compressImage} from "../utils/compress"
 
 	export default {
 		props: ["text", "stage", "uploadLink", "response"],

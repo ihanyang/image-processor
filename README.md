@@ -8,6 +8,6 @@
 # clone repo
 git clone git@github.com:ihanyang/image-processor.git
 
-# install dependencies
+# start
 node demo/server
 ```

@@ -1,6 +1,6 @@
 # image-processor
 
-> 一个图片压缩处理工具 [demo](http://hanyang.me)
+> 一个图片压缩处理工具 [demo](https://hanyang.me/image-processor/)
 
 ## Build Setup
 
